@@ -1,0 +1,41 @@
+new: 2
+insert 3
+bin 3 3
+insert 7
+bin 0 7
+insert 11
+bin 1 11
+member 11 1
+size 3
+remove 7 1
+member 11 1
+size 2
+insert 4
+bin 0 4
+size 3
+capacity 4
+insert 6
+insert 8
+size 5
+capacity 8
+bin 0 8
+bin 3 11
+bin 4 4
+bin 5 3
+bin 6 6
+remove 3 1
+remove 1 0
+remove 3 0
+remove 8 1
+remove 11 1
+remove 4 1
+capacity 4
+remove 6 1
+size 0
+capacity 4
+insert 3
+bin 3 3
+clear
+size 0
+delete
+summary

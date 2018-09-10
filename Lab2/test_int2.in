@@ -1,0 +1,23 @@
+new: 3
+insert 0
+insert 8
+insert 16
+insert 32
+insert 64
+insert 128
+bin 0 0
+bin 1 8
+bin 2 16
+bin 3 32
+bin 4 64
+bin 5 128
+size 6
+capacity 8
+load_factor .75
+insert 256
+load_factor .875
+insert 256
+size 8
+capacity 16
+delete
+summary
